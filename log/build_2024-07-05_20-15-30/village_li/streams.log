@@ -1,0 +1,24 @@
+[0.514s] Invoking command in '/home/tony/town_ws/src/village_li': AMENT_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces LD_LIBRARY_PATH=/home/tony/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tony/town_ws/build/village_li/prefix_override:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/tony/town_ws/build/village_li/build install --record /home/tony/town_ws/build/village_li/install.log --install-scripts $base/lib/village_li --single-version-externally-managed install_data
+[0.667s] running egg_info
+[0.667s] writing ../../build/village_li/village_li.egg-info/PKG-INFO
+[0.667s] writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+[0.668s] writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+[0.668s] writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+[0.668s] writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+[0.690s] reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.691s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.691s] running build
+[0.691s] running build_py
+[0.691s] running install
+[0.692s] running install_lib
+[0.692s] running install_data
+[0.693s] creating /home/tony/town_ws/install/village_li/share/village_li/launch
+[0.693s] copying launch/village.launch.py -> /home/tony/town_ws/install/village_li/share/village_li/launch
+[0.693s] running install_egg_info
+[0.694s] removing '/home/tony/town_ws/install/village_li/lib/python3.8/site-packages/village_li-0.0.0-py3.8.egg-info' (and everything under it)
+[0.694s] Copying ../../build/village_li/village_li.egg-info to /home/tony/town_ws/install/village_li/lib/python3.8/site-packages/village_li-0.0.0-py3.8.egg-info
+[0.695s] running install_scripts
+[0.706s] Installing li3_node script to /home/tony/town_ws/install/village_li/lib/village_li
+[0.706s] Installing li4_node script to /home/tony/town_ws/install/village_li/lib/village_li
+[0.706s] writing list of installed files to '/home/tony/town_ws/build/village_li/install.log'
+[0.722s] Invoked command in '/home/tony/town_ws/src/village_li' returned '0': AMENT_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces LD_LIBRARY_PATH=/home/tony/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tony/town_ws/build/village_li/prefix_override:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/tony/town_ws/build/village_li/build install --record /home/tony/town_ws/build/village_li/install.log --install-scripts $base/lib/village_li --single-version-externally-managed install_data

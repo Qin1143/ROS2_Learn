@@ -1,0 +1,22 @@
+[0.508s] Invoking command in '/home/tony/town_ws/src/village_li': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang PYTHONPATH=/home/tony/town_ws/build/village_li/prefix_override:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/tony/town_ws/build/village_li/build install --record /home/tony/town_ws/build/village_li/install.log --install-scripts $base/lib/village_li --single-version-externally-managed install_data
+[0.676s] running egg_info
+[0.676s] writing ../../build/village_li/village_li.egg-info/PKG-INFO
+[0.676s] writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+[0.676s] writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+[0.676s] writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+[0.677s] writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+[0.701s] reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.702s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.702s] running build
+[0.702s] running build_py
+[0.702s] running install
+[0.702s] running install_lib
+[0.703s] running install_data
+[0.703s] running install_egg_info
+[0.704s] removing '/home/tony/town_ws/install/village_li/lib/python3.8/site-packages/village_li-0.0.0-py3.8.egg-info' (and everything under it)
+[0.705s] Copying ../../build/village_li/village_li.egg-info to /home/tony/town_ws/install/village_li/lib/python3.8/site-packages/village_li-0.0.0-py3.8.egg-info
+[0.705s] running install_scripts
+[0.717s] Installing li3_node script to /home/tony/town_ws/install/village_li/lib/village_li
+[0.717s] Installing li4_node script to /home/tony/town_ws/install/village_li/lib/village_li
+[0.717s] writing list of installed files to '/home/tony/town_ws/build/village_li/install.log'
+[0.734s] Invoked command in '/home/tony/town_ws/src/village_li' returned '0': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang PYTHONPATH=/home/tony/town_ws/build/village_li/prefix_override:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/tony/town_ws/build/village_li/build install --record /home/tony/town_ws/build/village_li/install.log --install-scripts $base/lib/village_li --single-version-externally-managed install_data

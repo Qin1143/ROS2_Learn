@@ -1,0 +1,2 @@
+[0.199s] Invoking command in '/home/tony/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/action_test_cpp:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/tony/town_ws/build/village_zhang -- -j16 -l16
+[0.253s] [100%] Built target zhang3_node

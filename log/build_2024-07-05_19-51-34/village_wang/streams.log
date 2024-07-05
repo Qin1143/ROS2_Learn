@@ -1,0 +1,22 @@
+[0.194s] Invoking command in '/home/tony/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/action_test_cpp:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/tony/town_ws/build/village_wang -- -j16 -l16
+[0.246s] [100%] Built target wang2_node
+[0.256s] Invoked command in '/home/tony/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/action_test_cpp:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/tony/town_ws/build/village_wang -- -j16 -l16
+[0.281s] Invoking command in '/home/tony/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/action_test_cpp:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/tony/town_ws/build/village_wang
+[0.290s] -- Install configuration: ""
+[0.290s] -- Up-to-date: /home/tony/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[0.290s] -- Up-to-date: /home/tony/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[0.290s] -- Up-to-date: /home/tony/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[0.290s] -- Up-to-date: /home/tony/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[0.291s] -- Up-to-date: /home/tony/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[0.291s] -- Up-to-date: /home/tony/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[0.291s] -- Up-to-date: /home/tony/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[0.291s] -- Up-to-date: /home/tony/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[0.291s] -- Up-to-date: /home/tony/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[0.291s] -- Up-to-date: /home/tony/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[0.291s] -- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/package.dsv
+[0.291s] -- Up-to-date: /home/tony/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[0.291s] -- Up-to-date: /home/tony/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[0.291s] -- Up-to-date: /home/tony/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[0.291s] -- Up-to-date: /home/tony/town_ws/install/village_wang/share/village_wang/package.xml
+[0.292s] -- Up-to-date: /home/tony/town_ws/install/village_wang/lib/village_wang/wang2_node
+[0.293s] Invoked command in '/home/tony/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/action_test_cpp:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/tony/town_ws/build/village_wang

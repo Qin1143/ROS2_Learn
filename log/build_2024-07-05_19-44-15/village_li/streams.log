@@ -1,0 +1,22 @@
+[0.510s] Invoking command in '/home/tony/town_ws/src/village_li': PYTHONPATH=/home/tony/town_ws/build/village_li/prefix_override:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/tony/town_ws/build/village_li/build install --record /home/tony/town_ws/build/village_li/install.log --install-scripts $base/lib/village_li --single-version-externally-managed install_data
+[0.669s] running egg_info
+[0.669s] writing ../../build/village_li/village_li.egg-info/PKG-INFO
+[0.669s] writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+[0.669s] writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+[0.670s] writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+[0.670s] writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+[0.694s] reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.695s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.695s] running build
+[0.695s] running build_py
+[0.695s] running install
+[0.696s] running install_lib
+[0.697s] running install_data
+[0.697s] running install_egg_info
+[0.698s] removing '/home/tony/town_ws/install/village_li/lib/python3.8/site-packages/village_li-0.0.0-py3.8.egg-info' (and everything under it)
+[0.699s] Copying ../../build/village_li/village_li.egg-info to /home/tony/town_ws/install/village_li/lib/python3.8/site-packages/village_li-0.0.0-py3.8.egg-info
+[0.700s] running install_scripts
+[0.712s] Installing li3_node script to /home/tony/town_ws/install/village_li/lib/village_li
+[0.712s] Installing li4_node script to /home/tony/town_ws/install/village_li/lib/village_li
+[0.713s] writing list of installed files to '/home/tony/town_ws/build/village_li/install.log'
+[0.729s] Invoked command in '/home/tony/town_ws/src/village_li' returned '0': PYTHONPATH=/home/tony/town_ws/build/village_li/prefix_override:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/tony/town_ws/build/village_li/build install --record /home/tony/town_ws/build/village_li/install.log --install-scripts $base/lib/village_li --single-version-externally-managed install_data

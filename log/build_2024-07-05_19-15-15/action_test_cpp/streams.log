@@ -1,0 +1,71 @@
+[0.016s] Invoking command in '/home/tony/town_ws/build/action_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake /home/tony/town_ws/src/action_test_cpp -DCMAKE_INSTALL_PREFIX=/home/tony/town_ws/install/action_test_cpp
+[0.063s] -- The C compiler identification is GNU 9.4.0
+[0.109s] -- The CXX compiler identification is GNU 9.4.0
+[0.114s] -- Check for working C compiler: /usr/bin/cc
+[0.179s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.179s] -- Detecting C compiler ABI info
+[0.241s] -- Detecting C compiler ABI info - done
+[0.250s] -- Detecting C compile features
+[0.251s] -- Detecting C compile features - done
+[0.253s] -- Check for working CXX compiler: /usr/bin/c++
+[0.324s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.326s] -- Detecting CXX compiler ABI info
+[0.400s] -- Detecting CXX compiler ABI info - done
+[0.408s] -- Detecting CXX compile features
+[0.409s] -- Detecting CXX compile features - done
+[0.411s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.432s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.432s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.608s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[0.610s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.653s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.659s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.757s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.789s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.867s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.914s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.915s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.916s] -- Looking for pthread.h
+[0.985s] -- Looking for pthread.h - found
+[0.985s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.062s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.062s] -- Looking for pthread_create in pthreads
+[1.121s] -- Looking for pthread_create in pthreads - not found
+[1.121s] -- Looking for pthread_create in pthread
+[1.196s] -- Looking for pthread_create in pthread - found
+[1.197s] -- Found Threads: TRUE  
+[1.318s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.384s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.385s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.385s] -- Configured cppcheck include dirs: 
+[1.385s] -- Configured cppcheck exclude dirs and/or files: 
+[1.386s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.386s] -- Configured cpplint exclude dirs and/or files: 
+[1.386s] -- Added test 'lint_cmake' to check CMake code style
+[1.387s] -- Added test 'uncrustify' to check C / C++ code style
+[1.387s] -- Configured uncrustify additional arguments: 
+[1.387s] -- Added test 'xmllint' to check XML markup files
+[1.391s] -- Configuring done
+[1.393s] -- Generating done
+[1.394s] -- Build files have been written to: /home/tony/town_ws/build/action_test_cpp
+[1.401s] Invoked command in '/home/tony/town_ws/build/action_test_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake /home/tony/town_ws/src/action_test_cpp -DCMAKE_INSTALL_PREFIX=/home/tony/town_ws/install/action_test_cpp
+[1.404s] Invoking command in '/home/tony/town_ws/build/action_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/tony/town_ws/build/action_test_cpp -- -j16 -l16
+[1.442s] Invoked command in '/home/tony/town_ws/build/action_test_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/tony/town_ws/build/action_test_cpp -- -j16 -l16
+[1.467s] Invoking command in '/home/tony/town_ws/build/action_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/tony/town_ws/build/action_test_cpp
+[1.477s] -- Install configuration: ""
+[1.477s] -- Installing: /home/tony/town_ws/install/action_test_cpp/share/ament_index/resource_index/package_run_dependencies/action_test_cpp
+[1.477s] -- Installing: /home/tony/town_ws/install/action_test_cpp/share/ament_index/resource_index/parent_prefix_path/action_test_cpp
+[1.477s] -- Installing: /home/tony/town_ws/install/action_test_cpp/share/action_test_cpp/environment/ament_prefix_path.sh
+[1.477s] -- Installing: /home/tony/town_ws/install/action_test_cpp/share/action_test_cpp/environment/ament_prefix_path.dsv
+[1.478s] -- Installing: /home/tony/town_ws/install/action_test_cpp/share/action_test_cpp/environment/path.sh
+[1.478s] -- Installing: /home/tony/town_ws/install/action_test_cpp/share/action_test_cpp/environment/path.dsv
+[1.478s] -- Installing: /home/tony/town_ws/install/action_test_cpp/share/action_test_cpp/local_setup.bash
+[1.478s] -- Installing: /home/tony/town_ws/install/action_test_cpp/share/action_test_cpp/local_setup.sh
+[1.478s] -- Installing: /home/tony/town_ws/install/action_test_cpp/share/action_test_cpp/local_setup.zsh
+[1.478s] -- Installing: /home/tony/town_ws/install/action_test_cpp/share/action_test_cpp/local_setup.dsv
+[1.478s] -- Installing: /home/tony/town_ws/install/action_test_cpp/share/action_test_cpp/package.dsv
+[1.479s] -- Installing: /home/tony/town_ws/install/action_test_cpp/share/ament_index/resource_index/packages/action_test_cpp
+[1.479s] -- Installing: /home/tony/town_ws/install/action_test_cpp/share/action_test_cpp/cmake/action_test_cppConfig.cmake
+[1.479s] -- Installing: /home/tony/town_ws/install/action_test_cpp/share/action_test_cpp/cmake/action_test_cppConfig-version.cmake
+[1.479s] -- Installing: /home/tony/town_ws/install/action_test_cpp/share/action_test_cpp/package.xml
+[1.481s] Invoked command in '/home/tony/town_ws/build/action_test_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/tony/town_ws/build/action_test_cpp

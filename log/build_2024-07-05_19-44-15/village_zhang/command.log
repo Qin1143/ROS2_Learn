@@ -1,0 +1,4 @@
+Invoking command in '/home/tony/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/tony/town_ws/build/village_zhang -- -j16 -l16
+Invoked command in '/home/tony/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/tony/town_ws/build/village_zhang -- -j16 -l16
+Invoking command in '/home/tony/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/tony/town_ws/build/village_zhang
+Invoked command in '/home/tony/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/tony/town_ws/build/village_zhang

@@ -1,0 +1,22 @@
+[0.193s] Invoking command in '/home/tony/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/action_test_cpp:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/tony/town_ws/build/village_zhang -- -j16 -l16
+[0.248s] [100%] Built target zhang3_node
+[0.259s] Invoked command in '/home/tony/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/action_test_cpp:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/tony/town_ws/build/village_zhang -- -j16 -l16
+[0.284s] Invoking command in '/home/tony/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/action_test_cpp:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/tony/town_ws/build/village_zhang
+[0.291s] -- Install configuration: ""
+[0.292s] -- Up-to-date: /home/tony/town_ws/install/village_zhang/share/ament_index/resource_index/package_run_dependencies/village_zhang
+[0.292s] -- Up-to-date: /home/tony/town_ws/install/village_zhang/share/ament_index/resource_index/parent_prefix_path/village_zhang
+[0.292s] -- Up-to-date: /home/tony/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.sh
+[0.292s] -- Up-to-date: /home/tony/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.dsv
+[0.292s] -- Up-to-date: /home/tony/town_ws/install/village_zhang/share/village_zhang/environment/path.sh
+[0.292s] -- Up-to-date: /home/tony/town_ws/install/village_zhang/share/village_zhang/environment/path.dsv
+[0.292s] -- Up-to-date: /home/tony/town_ws/install/village_zhang/share/village_zhang/local_setup.bash
+[0.292s] -- Up-to-date: /home/tony/town_ws/install/village_zhang/share/village_zhang/local_setup.sh
+[0.292s] -- Up-to-date: /home/tony/town_ws/install/village_zhang/share/village_zhang/local_setup.zsh
+[0.292s] -- Up-to-date: /home/tony/town_ws/install/village_zhang/share/village_zhang/local_setup.dsv
+[0.293s] -- Installing: /home/tony/town_ws/install/village_zhang/share/village_zhang/package.dsv
+[0.293s] -- Up-to-date: /home/tony/town_ws/install/village_zhang/share/ament_index/resource_index/packages/village_zhang
+[0.293s] -- Up-to-date: /home/tony/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig.cmake
+[0.293s] -- Up-to-date: /home/tony/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig-version.cmake
+[0.293s] -- Up-to-date: /home/tony/town_ws/install/village_zhang/share/village_zhang/package.xml
+[0.293s] -- Up-to-date: /home/tony/town_ws/install/village_zhang/lib/village_zhang/zhang3_node
+[0.298s] Invoked command in '/home/tony/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/action_test_cpp:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/tony/town_ws/build/village_zhang

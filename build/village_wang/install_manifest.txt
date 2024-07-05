@@ -14,3 +14,4 @@
 /home/tony/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
 /home/tony/town_ws/install/village_wang/share/village_wang/package.xml
 /home/tony/town_ws/install/village_wang/lib/village_wang/wang2_node
+/home/tony/town_ws/install/village_wang/share/village_wang/launch/village.launch.py

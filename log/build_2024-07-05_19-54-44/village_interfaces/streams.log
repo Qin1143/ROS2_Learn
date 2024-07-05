@@ -1,0 +1,16 @@
+[0.016s] Invoking command in '/home/tony/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/tony/town_ws/build/village_interfaces -- -j16 -l16
+[0.064s] [  2%] Built target village_interfaces__cpp
+[0.067s] [ 12%] Built target village_interfaces__rosidl_generator_c
+[0.086s] [ 27%] Built target village_interfaces__rosidl_typesupport_introspection_cpp
+[0.086s] [ 34%] Built target village_interfaces__rosidl_typesupport_cpp
+[0.088s] [ 44%] Built target village_interfaces__rosidl_typesupport_introspection_c
+[0.090s] [ 55%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.091s] [ 65%] Built target village_interfaces__rosidl_typesupport_c
+[0.121s] [ 76%] Built target village_interfaces__rosidl_typesupport_fastrtps_c
+[0.145s] [ 76%] Built target village_interfaces
+[0.169s] [ 78%] Built target village_interfaces__py
+[0.199s] [ 87%] Built target village_interfaces__python
+[0.225s] [ 91%] Built target village_interfaces__rosidl_typesupport_c__pyext
+[0.225s] [ 95%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.225s] [100%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.236s] Invoked command in '/home/tony/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/tony/town_ws/build/village_interfaces -- -j16 -l16

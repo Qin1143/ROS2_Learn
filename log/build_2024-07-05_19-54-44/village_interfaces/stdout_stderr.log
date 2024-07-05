@@ -1,0 +1,14 @@
+[  2%] Built target village_interfaces__cpp
+[ 12%] Built target village_interfaces__rosidl_generator_c
+[ 27%] Built target village_interfaces__rosidl_typesupport_introspection_cpp
+[ 34%] Built target village_interfaces__rosidl_typesupport_cpp
+[ 44%] Built target village_interfaces__rosidl_typesupport_introspection_c
+[ 55%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 65%] Built target village_interfaces__rosidl_typesupport_c
+[ 76%] Built target village_interfaces__rosidl_typesupport_fastrtps_c
+[ 76%] Built target village_interfaces
+[ 78%] Built target village_interfaces__py
+[ 87%] Built target village_interfaces__python
+[ 91%] Built target village_interfaces__rosidl_typesupport_c__pyext
+[ 95%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext
