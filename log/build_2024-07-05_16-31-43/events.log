@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000640] (-) JobUnselected: {'identifier': 'village_interfaces'}
+[0.000692] (-) JobUnselected: {'identifier': 'village_li'}
+[0.000806] (-) JobUnselected: {'identifier': 'village_zhang'}
+[0.000831] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict([('village_interfaces', '/home/tony/town_ws/install/village_interfaces')])}
+[0.000857] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.011155] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[0.011699] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[0.012498] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tony/town_ws/build/village_wang', '--', '-j16', '-l16'], 'cwd': '/home/tony/town_ws/build/village_wang', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'tony'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1700'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tony/town_ws/install/village_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tony'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1598'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5037'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tony/town_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tony'), ('JOURNAL_STREAM', '8:55366'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tony/.local/bin:/opt/ros/foxy/bin:/home/tony/anaconda3/condabin:/home/tony/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Jarvis:@/tmp/.ICE-unix/1736,unix/Jarvis:/tmp/.ICE-unix/1736'), ('INVOCATION_ID', 'd20f678636444bdc91feb2fbaece338c'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9fdcf8c6ba.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/home/tony/town_ws/install/village_interfaces:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/tony/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony/town_ws/build/village_wang'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/tony/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy')]), 'shell': False}
+[0.055654] (village_wang) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target wang2_node\x1b[0m\n'}
+[0.089118] (village_wang) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o\x1b[0m\n'}
+[0.099819] (-) TimerEvent: {}
+[0.200134] (-) TimerEvent: {}
+[0.300425] (-) TimerEvent: {}
+[0.400705] (-) TimerEvent: {}
+[0.501020] (-) TimerEvent: {}
+[0.601326] (-) TimerEvent: {}
+[0.701610] (-) TimerEvent: {}
+[0.801897] (-) TimerEvent: {}
+[0.902189] (-) TimerEvent: {}
+[1.002501] (-) TimerEvent: {}
+[1.102807] (-) TimerEvent: {}
+[1.203131] (-) TimerEvent: {}
+[1.303442] (-) TimerEvent: {}
+[1.403711] (-) TimerEvent: {}
+[1.504004] (-) TimerEvent: {}
+[1.604292] (-) TimerEvent: {}
+[1.704579] (-) TimerEvent: {}
+[1.804881] (-) TimerEvent: {}
+[1.905165] (-) TimerEvent: {}
+[2.005444] (-) TimerEvent: {}
+[2.106064] (-) TimerEvent: {}
+[2.206474] (-) TimerEvent: {}
+[2.306758] (-) TimerEvent: {}
+[2.407048] (-) TimerEvent: {}
+[2.507332] (-) TimerEvent: {}
+[2.607595] (-) TimerEvent: {}
+[2.708033] (-) TimerEvent: {}
+[2.808337] (-) TimerEvent: {}
+[2.908618] (-) TimerEvent: {}
+[3.008904] (-) TimerEvent: {}
+[3.109185] (-) TimerEvent: {}
+[3.209473] (-) TimerEvent: {}
+[3.309745] (-) TimerEvent: {}
+[3.410467] (-) TimerEvent: {}
+[3.510758] (-) TimerEvent: {}
+[3.611052] (-) TimerEvent: {}
+[3.711646] (-) TimerEvent: {}
+[3.811958] (-) TimerEvent: {}
+[3.912777] (-) TimerEvent: {}
+[4.013061] (-) TimerEvent: {}
+[4.113348] (-) TimerEvent: {}
+[4.214019] (-) TimerEvent: {}
+[4.314351] (-) TimerEvent: {}
+[4.414677] (-) TimerEvent: {}
+[4.473281] (village_wang) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable wang2_node\x1b[0m\n'}
+[4.514798] (-) TimerEvent: {}
+[4.615078] (-) TimerEvent: {}
+[4.685872] (village_wang) StdoutLine: {'line': b'[100%] Built target wang2_node\n'}
+[4.697537] (village_wang) CommandEnded: {'returncode': 0}
+[4.715335] (-) TimerEvent: {}
+[4.727341] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'install'}
+[4.742697] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tony/town_ws/build/village_wang'], 'cwd': '/home/tony/town_ws/build/village_wang', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'tony'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1700'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tony/town_ws/install/village_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tony'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1598'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5037'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tony/town_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tony'), ('JOURNAL_STREAM', '8:55366'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tony/.local/bin:/opt/ros/foxy/bin:/home/tony/anaconda3/condabin:/home/tony/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Jarvis:@/tmp/.ICE-unix/1736,unix/Jarvis:/tmp/.ICE-unix/1736'), ('INVOCATION_ID', 'd20f678636444bdc91feb2fbaece338c'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9fdcf8c6ba.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/home/tony/town_ws/install/village_interfaces:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/tony/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony/town_ws/build/village_wang'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/tony/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy')]), 'shell': False}
+[4.761716] (village_wang) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.761949] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tony/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang\n'}
+[4.762047] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tony/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang\n'}
+[4.762176] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh\n'}
+[4.762334] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv\n'}
+[4.762469] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/environment/path.sh\n'}
+[4.762572] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/environment/path.dsv\n'}
+[4.762702] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/local_setup.bash\n'}
+[4.762846] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/local_setup.sh\n'}
+[4.762977] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/local_setup.zsh\n'}
+[4.763075] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/local_setup.dsv\n'}
+[4.763195] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/package.dsv\n'}
+[4.763379] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tony/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang\n'}
+[4.763532] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake\n'}
+[4.763634] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake\n'}
+[4.763741] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/package.xml\n'}
+[4.763941] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tony/town_ws/install/village_wang/lib/village_wang/wang2_node\n'}
+[4.766556] (village_wang) StdoutLine: {'line': b'-- Set runtime path of "/home/tony/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""\n'}
+[4.768161] (village_wang) CommandEnded: {'returncode': 0}
+[4.815857] (-) TimerEvent: {}
+[4.822154] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 0}
+[4.822926] (-) EventReactorShutdown: {}

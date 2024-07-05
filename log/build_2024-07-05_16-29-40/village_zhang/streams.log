@@ -1,0 +1,77 @@
+[0.188s] Invoking command in '/home/tony/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy PYTHONPATH=/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/tony/town_ws/src/village_zhang -DCMAKE_INSTALL_PREFIX=/home/tony/town_ws/install/village_zhang
+[0.238s] -- The C compiler identification is GNU 9.4.0
+[0.283s] -- The CXX compiler identification is GNU 9.4.0
+[0.286s] -- Check for working C compiler: /usr/bin/cc
+[0.349s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.350s] -- Detecting C compiler ABI info
+[0.415s] -- Detecting C compiler ABI info - done
+[0.424s] -- Detecting C compile features
+[0.424s] -- Detecting C compile features - done
+[0.426s] -- Check for working CXX compiler: /usr/bin/c++
+[0.501s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.502s] -- Detecting CXX compiler ABI info
+[0.580s] -- Detecting CXX compiler ABI info - done
+[0.589s] -- Detecting CXX compile features
+[0.590s] -- Detecting CXX compile features - done
+[0.592s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.613s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.613s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.799s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.841s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.847s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.934s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.964s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.035s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.078s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.079s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.088s] -- Looking for pthread.h
+[1.156s] -- Looking for pthread.h - found
+[1.156s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.229s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.229s] -- Looking for pthread_create in pthreads
+[1.285s] -- Looking for pthread_create in pthreads - not found
+[1.285s] -- Looking for pthread_create in pthread
+[1.351s] -- Looking for pthread_create in pthread - found
+[1.352s] -- Found Threads: TRUE  
+[1.511s] -- Found village_interfaces: 0.0.0 (/home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake)
+[1.688s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.753s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.753s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.754s] -- Configured cppcheck include dirs: 
+[1.754s] -- Configured cppcheck exclude dirs and/or files: 
+[1.754s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.754s] -- Configured cpplint exclude dirs and/or files: 
+[1.755s] -- Added test 'lint_cmake' to check CMake code style
+[1.756s] -- Added test 'uncrustify' to check C / C++ code style
+[1.756s] -- Configured uncrustify additional arguments: 
+[1.756s] -- Added test 'xmllint' to check XML markup files
+[1.760s] -- Configuring done
+[1.768s] -- Generating done
+[1.769s] -- Build files have been written to: /home/tony/town_ws/build/village_zhang
+[1.777s] Invoked command in '/home/tony/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy PYTHONPATH=/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/tony/town_ws/src/village_zhang -DCMAKE_INSTALL_PREFIX=/home/tony/town_ws/install/village_zhang
+[1.779s] Invoking command in '/home/tony/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy PYTHONPATH=/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/tony/town_ws/build/village_zhang -- -j16 -l16
+[1.820s] [35m[1mScanning dependencies of target zhang3_node[0m
+[1.865s] [ 50%] [32mBuilding CXX object CMakeFiles/zhang3_node.dir/src/zhang3.cpp.o[0m
+[3.854s] [100%] [32m[1mLinking CXX executable zhang3_node[0m
+[3.968s] [100%] Built target zhang3_node
+[3.980s] Invoked command in '/home/tony/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy PYTHONPATH=/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/tony/town_ws/build/village_zhang -- -j16 -l16
+[4.007s] Invoking command in '/home/tony/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy PYTHONPATH=/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/tony/town_ws/build/village_zhang
+[4.014s] -- Install configuration: ""
+[4.014s] -- Installing: /home/tony/town_ws/install/village_zhang/share/ament_index/resource_index/package_run_dependencies/village_zhang
+[4.014s] -- Installing: /home/tony/town_ws/install/village_zhang/share/ament_index/resource_index/parent_prefix_path/village_zhang
+[4.015s] -- Installing: /home/tony/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.sh
+[4.015s] -- Installing: /home/tony/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.dsv
+[4.015s] -- Installing: /home/tony/town_ws/install/village_zhang/share/village_zhang/environment/path.sh
+[4.015s] -- Installing: /home/tony/town_ws/install/village_zhang/share/village_zhang/environment/path.dsv
+[4.015s] -- Installing: /home/tony/town_ws/install/village_zhang/share/village_zhang/local_setup.bash
+[4.015s] -- Installing: /home/tony/town_ws/install/village_zhang/share/village_zhang/local_setup.sh
+[4.015s] -- Installing: /home/tony/town_ws/install/village_zhang/share/village_zhang/local_setup.zsh
+[4.016s] -- Installing: /home/tony/town_ws/install/village_zhang/share/village_zhang/local_setup.dsv
+[4.016s] -- Installing: /home/tony/town_ws/install/village_zhang/share/village_zhang/package.dsv
+[4.016s] -- Installing: /home/tony/town_ws/install/village_zhang/share/ament_index/resource_index/packages/village_zhang
+[4.016s] -- Installing: /home/tony/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig.cmake
+[4.016s] -- Installing: /home/tony/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig-version.cmake
+[4.016s] -- Installing: /home/tony/town_ws/install/village_zhang/share/village_zhang/package.xml
+[4.017s] -- Installing: /home/tony/town_ws/install/village_zhang/lib/village_zhang/zhang3_node
+[4.017s] -- Set runtime path of "/home/tony/town_ws/install/village_zhang/lib/village_zhang/zhang3_node" to ""
+[4.019s] Invoked command in '/home/tony/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy PYTHONPATH=/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/tony/town_ws/build/village_zhang

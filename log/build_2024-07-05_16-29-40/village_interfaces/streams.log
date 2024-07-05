@@ -1,0 +1,291 @@
+[0.011s] Invoking command in '/home/tony/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake /home/tony/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/tony/town_ws/install/village_interfaces
+[0.068s] -- The C compiler identification is GNU 9.4.0
+[0.124s] -- The CXX compiler identification is GNU 9.4.0
+[0.130s] -- Check for working C compiler: /usr/bin/cc
+[0.233s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.235s] -- Detecting C compiler ABI info
+[0.327s] -- Detecting C compiler ABI info - done
+[0.338s] -- Detecting C compile features
+[0.339s] -- Detecting C compile features - done
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++
+[0.442s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.443s] -- Detecting CXX compiler ABI info
+[0.519s] -- Detecting CXX compiler ABI info - done
+[0.526s] -- Detecting CXX compile features
+[0.527s] -- Detecting CXX compile features - done
+[0.528s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.548s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.548s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.712s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.736s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.742s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.827s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.855s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.920s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.043s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.069s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.223s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.468s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.582s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.605s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.606s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.629s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.629s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.629s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.629s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.649s] -- Found PythonExtra: .so  
+[1.730s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.747s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.750s] -- Added test 'lint_cmake' to check CMake code style
+[1.751s] -- Added test 'xmllint' to check XML markup files
+[1.756s] -- Configuring done
+[1.810s] -- Generating done
+[1.812s] -- Build files have been written to: /home/tony/town_ws/build/village_interfaces
+[1.820s] Invoked command in '/home/tony/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake /home/tony/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/tony/town_ws/install/village_interfaces
+[1.823s] Invoking command in '/home/tony/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/tony/town_ws/build/village_interfaces -- -j16 -l16
+[1.864s] [35m[1mScanning dependencies of target village_interfaces__cpp[0m
+[1.864s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.875s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.140s] [  4%] Built target village_interfaces__cpp
+[2.154s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.155s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.157s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.163s] [35m[1mScanning dependencies of target village_interfaces__rosidl_generator_c[0m
+[2.178s] [ 17%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.c.o[0m
+[2.178s] [ 17%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o[0m
+[2.178s] [ 17%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o[0m
+[2.229s] [ 19%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_generator_c.so[0m
+[2.266s] [ 19%] Built target village_interfaces__rosidl_generator_c
+[2.277s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.278s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.360s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_cpp[0m
+[2.374s] [ 25%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.cpp.o[0m
+[2.375s] [ 29%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.cpp.o[0m
+[2.375s] [ 29%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.o[0m
+[2.404s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.421s] [ 31%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.cpp.o[0m
+[2.421s] [ 34%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.o[0m
+[2.422s] [ 36%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.cpp.o[0m
+[2.440s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.463s] [ 38%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.cpp.o[0m
+[2.463s] [ 42%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.cpp.o[0m
+[2.463s] [ 42%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.o[0m
+[2.506s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_c[0m
+[2.522s] [ 44%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/msg/novel__type_support.cpp.o[0m
+[2.523s] [ 46%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.cpp.o[0m
+[2.524s] [ 48%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.o[0m
+[2.566s] [ 51%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_c.so[0m
+[2.569s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_c[0m
+[2.588s] [ 53%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o[0m
+[2.589s] [ 55%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o[0m
+[2.594s] [ 57%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.c.o[0m
+[2.623s] [ 57%] Built target village_interfaces__rosidl_typesupport_c
+[2.646s] [ 59%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.685s] [ 59%] Built target village_interfaces__rosidl_typesupport_introspection_c
+[2.717s] [ 61%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_cpp.so[0m
+[2.762s] [ 61%] Built target village_interfaces__rosidl_typesupport_cpp
+[2.814s] [ 63%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.885s] [ 63%] Built target village_interfaces__rosidl_typesupport_introspection_cpp
+[2.979s] [ 65%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.055s] [ 65%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.066s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.304s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c[0m
+[3.327s] [ 72%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.cpp.o[0m
+[3.327s] [ 72%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.cpp.o[0m
+[3.327s] [ 74%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.o[0m
+[3.618s] [ 76%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.701s] [ 76%] Built target village_interfaces__rosidl_typesupport_fastrtps_c
+[3.712s] [35m[1mScanning dependencies of target village_interfaces[0m
+[3.723s] [ 76%] Built target village_interfaces
+[3.733s] [35m[1mScanning dependencies of target village_interfaces__py[0m
+[3.744s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.223s] [ 78%] Built target village_interfaces__py
+[4.233s] [35m[1mScanning dependencies of target village_interfaces__python[0m
+[4.259s] [ 82%] [32mBuilding C object CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/msg/_novel_s.c.o[0m
+[4.259s] [ 82%] [32mBuilding C object CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.o[0m
+[4.259s] [ 85%] [32mBuilding C object CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.o[0m
+[4.340s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/libvillage_interfaces__python.so[0m
+[4.385s] [ 87%] Built target village_interfaces__python
+[4.395s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[4.395s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.396s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_c__pyext[0m
+[4.414s] [ 89%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.414s] [ 91%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.416s] [ 93%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.492s] [100%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.492s] [100%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.492s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.538s] [100%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.538s] [100%] Built target village_interfaces__rosidl_typesupport_c__pyext
+[4.573s] [100%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.584s] Invoked command in '/home/tony/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/tony/town_ws/build/village_interfaces -- -j16 -l16
+[4.671s] Invoking command in '/home/tony/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/tony/town_ws/build/village_interfaces
+[4.679s] -- Install configuration: ""
+[4.679s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/ament_index/resource_index/rosidl_interfaces/village_interfaces
+[4.679s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces
+[4.679s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg
+[4.679s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.679s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[4.679s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__functions.h
+[4.679s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__functions.c
+[4.679s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.h
+[4.680s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__struct.h
+[4.680s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/novel.h
+[4.680s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv
+[4.680s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/borrow_money.h
+[4.680s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/sell_novel.h
+[4.680s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail
+[4.680s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__struct.h
+[4.680s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__struct.h
+[4.680s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.h
+[4.680s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__functions.h
+[4.681s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__type_support.h
+[4.681s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__functions.c
+[4.681s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__functions.h
+[4.681s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__functions.c
+[4.681s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/environment/library_path.sh
+[4.681s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/environment/library_path.dsv
+[4.682s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so
+[4.682s] -- Set runtime path of "/home/tony/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so" to ""
+[4.682s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces
+[4.682s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg
+[4.682s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.682s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[4.683s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_c.h
+[4.683s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv
+[4.683s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail
+[4.683s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_c.h
+[4.683s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_fastrtps_c.h
+[4.683s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.683s] -- Set runtime path of "/home/tony/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.683s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces
+[4.684s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg
+[4.684s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.684s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[4.684s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/dds_fastrtps
+[4.684s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_cpp.hpp
+[4.684s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv
+[4.684s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail
+[4.684s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_fastrtps_cpp.hpp
+[4.684s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/dds_fastrtps
+[4.684s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_cpp.hpp
+[4.684s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.685s] -- Set runtime path of "/home/tony/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.685s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces
+[4.685s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg
+[4.685s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.685s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[4.685s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.c
+[4.685s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h
+[4.686s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv
+[4.686s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail
+[4.686s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__type_support.c
+[4.686s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.c
+[4.686s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_c.h
+[4.686s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_introspection_c.h
+[4.686s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so
+[4.687s] -- Set runtime path of "/home/tony/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.687s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so
+[4.687s] -- Set runtime path of "/home/tony/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so" to ""
+[4.687s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces
+[4.687s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg
+[4.687s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/novel.hpp
+[4.687s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.687s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[4.688s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__traits.hpp
+[4.688s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.hpp
+[4.688s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__struct.hpp
+[4.688s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__builder.hpp
+[4.688s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv
+[4.688s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/borrow_money.hpp
+[4.688s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/sell_novel.hpp
+[4.688s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail
+[4.688s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__type_support.hpp
+[4.688s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__builder.hpp
+[4.688s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__builder.hpp
+[4.689s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__struct.hpp
+[4.689s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__traits.hpp
+[4.689s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.hpp
+[4.689s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__struct.hpp
+[4.689s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__traits.hpp
+[4.689s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces
+[4.689s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg
+[4.689s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[4.689s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.cpp
+[4.690s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_cpp.hpp
+[4.690s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv
+[4.690s] -- Up-to-date: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail
+[4.690s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__type_support.cpp
+[4.690s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.cpp
+[4.690s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_cpp.hpp
+[4.690s] -- Installing: /home/tony/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_introspection_cpp.hpp
+[4.691s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.691s] -- Set runtime path of "/home/tony/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.691s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so
+[4.692s] -- Set runtime path of "/home/tony/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.692s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.sh
+[4.692s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.dsv
+[4.692s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/__init__.py
+[4.718s] Compiling '/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/__init__.py'...
+[4.721s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg
+[4.722s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/__init__.py
+[4.722s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/_novel_s.c
+[4.722s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/_novel.py
+[4.722s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv
+[4.722s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/__init__.py
+[4.722s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_sell_novel.py
+[4.723s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_borrow_money_s.c
+[4.723s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_borrow_money.py
+[4.723s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_sell_novel_s.c
+[4.723s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.725s] -- Set runtime path of "/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.725s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.726s] -- Set runtime path of "/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.726s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.726s] -- Set runtime path of "/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.727s] -- Installing: /home/tony/town_ws/install/village_interfaces/lib/libvillage_interfaces__python.so
+[4.727s] -- Set runtime path of "/home/tony/town_ws/install/village_interfaces/lib/libvillage_interfaces__python.so" to ""
+[4.727s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/msg/Novel.idl
+[4.727s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.idl
+[4.728s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/srv/SellNovel.idl
+[4.728s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/msg/Novel.msg
+[4.728s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.srv
+[4.728s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Request.msg
+[4.728s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Response.msg
+[4.728s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/srv/SellNovel.srv
+[4.729s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/srv/SellNovel_Request.msg
+[4.729s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/srv/SellNovel_Response.msg
+[4.729s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/ament_index/resource_index/package_run_dependencies/village_interfaces
+[4.729s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/ament_index/resource_index/parent_prefix_path/village_interfaces
+[4.729s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.sh
+[4.730s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.dsv
+[4.730s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/environment/path.sh
+[4.730s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/environment/path.dsv
+[4.730s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/local_setup.bash
+[4.730s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/local_setup.sh
+[4.731s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/local_setup.zsh
+[4.731s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/local_setup.dsv
+[4.731s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/package.dsv
+[4.731s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/ament_index/resource_index/packages/village_interfaces
+[4.731s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport.cmake
+[4.732s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.732s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.732s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.732s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport.cmake
+[4.732s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.733s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cppExport.cmake
+[4.733s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.733s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.733s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport.cmake
+[4.734s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.734s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.734s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.734s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.734s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.734s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.735s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.735s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.735s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig.cmake
+[4.735s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig-version.cmake
+[4.735s] -- Installing: /home/tony/town_ws/install/village_interfaces/share/village_interfaces/package.xml
+[4.738s] Invoked command in '/home/tony/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/tony/town_ws/build/village_interfaces

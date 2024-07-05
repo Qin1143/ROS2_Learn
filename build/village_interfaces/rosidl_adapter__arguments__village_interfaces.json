@@ -1,0 +1,8 @@
+{
+  "package_name": "village_interfaces",
+  "non_idl_tuples": [
+    "/home/tony/town_ws/src/village_interfaces:msg/Novel.msg",
+    "/home/tony/town_ws/src/village_interfaces:srv/BorrowMoney.srv",
+    "/home/tony/town_ws/src/village_interfaces:srv/SellNovel.srv"
+  ]
+}

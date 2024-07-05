@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/tony/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy PYTHONPATH=/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/tony/town_ws/build/village_wang -- -j16 -l16
+[0.055s] [35m[1mScanning dependencies of target wang2_node[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[4.473s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[4.685s] [100%] Built target wang2_node
+[4.697s] Invoked command in '/home/tony/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy PYTHONPATH=/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/tony/town_ws/build/village_wang -- -j16 -l16
+[4.746s] Invoking command in '/home/tony/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy PYTHONPATH=/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/tony/town_ws/build/village_wang
+[4.761s] -- Install configuration: ""
+[4.761s] -- Installing: /home/tony/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[4.761s] -- Installing: /home/tony/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[4.761s] -- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[4.762s] -- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[4.762s] -- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[4.762s] -- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[4.762s] -- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[4.762s] -- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[4.762s] -- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[4.762s] -- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[4.762s] -- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/package.dsv
+[4.763s] -- Installing: /home/tony/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[4.763s] -- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[4.763s] -- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[4.763s] -- Installing: /home/tony/town_ws/install/village_wang/share/village_wang/package.xml
+[4.763s] -- Installing: /home/tony/town_ws/install/village_wang/lib/village_wang/wang2_node
+[4.766s] -- Set runtime path of "/home/tony/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""
+[4.768s] Invoked command in '/home/tony/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/tony/town_ws/install/village_interfaces:/home/tony/town_ws/install/village_zhang:/home/tony/town_ws/install/village_wang:/home/tony/town_ws/install/village_li:/opt/ros/foxy PYTHONPATH=/home/tony/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/tony/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/tony/town_ws/build/village_wang
